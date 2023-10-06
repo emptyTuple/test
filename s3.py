@@ -16,6 +16,7 @@ def safe_write(filename):
             f"Во время записи в файл было возбуждено исключение {e.__class__.__name__}"
         )
     else:
+
         try:
             tmp.close()
             os.replace(tmp.name, filename)
