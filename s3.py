@@ -11,6 +11,7 @@ def safe_write(filename):
     except Exception as e:
         tmp.close()
         os.unlink(tmp.name)
+
         print(
             f"Во время записи в файл было возбуждено исключение {e.__class__.__name__}"
         )
