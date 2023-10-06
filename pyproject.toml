@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["emptyTuple <kotorov@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytube = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
